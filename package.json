@@ -1,20 +1,30 @@
 {
   "name": "beerlist-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "angular": "^1.5.8",
+    "angular": "^1.6.0",
     "angular-ui-router": "^0.3.1",
     "body-parser": "^1.15.0",
     "bootstrap": "^3.3.6",
     "ejs": "^2.4.1",
     "express": "^4.14.0",
-    "mongoose": "^4.4.12"
-  }
+    "mongoose": "^4.7.3",
+    "ui-router": "^1.0.0-alpha.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsaffar/beerlist-pre-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielsaffar/beerlist-pre-auth/issues"
+  },
+  "homepage": "https://github.com/danielsaffar/beerlist-pre-auth#readme",
+  "description": ""
 }
